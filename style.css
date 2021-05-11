@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 80%;
+    padding: 34px;
+    margin: auto;
+}
+.container h1, p{
+    text-align: center;
+}
+h1{
+    font-size: 42px;
+    font-family: 'Reggae One', cursive;
+}
+p{
+    font-size: 20px;
+    font-family: 'Laila', sans-serif;
+}
+input, textarea{
+    margin: 4.9px;
+    width: 80%;
+    padding: 5px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+    font-family: 'Laila', sans-serif;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    color: white;
+    background: purple;
+    padding: 8px 12px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 14px;
+    cursor: pointer;
+    font-family: 'Reggae One', cursive;
+}
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+}
+.submitMsg{
+    font-size: 25px;
+}
